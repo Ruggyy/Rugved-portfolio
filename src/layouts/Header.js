@@ -25,7 +25,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
             className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"
             onClick={jumpToTop}
           >
-            &lt;DhavalPatel /&gt;
+            &lt;Rugved /&gt;
           </h3>
         </motion.div>
         <motion.div
@@ -36,7 +36,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
           <ul className="flex items-center space-x-3">
             <li>
               <a href="#works" className="text-sm xs:text-base">
-                Works
+                Work Done By Me
               </a>
             </li>
             <li>

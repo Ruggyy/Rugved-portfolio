@@ -13,6 +13,11 @@ export const TABS = [
     icon: 'fluent:tab-desktop-20-regular',
   },
   {
+    label: 'Extra',
+    value: PROJECT_CATEGORY.EXTRA,
+    icon: 'fluent:tab-desktop-20-regular',
+  },
+  {
     label: 'Full Stack',
     value: PROJECT_CATEGORY.FULL_STACK,
     icon: 'bx:code-block',
@@ -28,25 +33,18 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
-    title: 'Flipkart Clone - E-Commerce Project',
+    imgSrc: 'https://www.cariboutests.com/images/logo/logo_en.svg',
+    title: 'Caribou Math',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
-      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'Mongodb'),
+     
     ],
     description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It is build with React Js, Node Js.',
-    repoLink: 'https://github.com/dhavalCode/flipkart-clone',
-    sourceLink: 'https://flipkart-web.vercel.app/',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+      'The Caribou Mathematics Competition is a world wide online contest that is held six times throughout the school year.',
+   
+    category: [PROJECT_CATEGORY.EXTRA, PROJECT_CATEGORY.EXTRA],
   },
   {
-    imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
+    imgSrc: 'https://tr.rbxcdn.com/6d49909bc0eac2dd9ef352191f9177e8/420/420/Hat/Webp',
     title: 'Developer Portfolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
@@ -61,38 +59,34 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
   {
-    imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
-    title: 'Kitchen Store  - E-Commerce',
+    imgSrc: 'https://raw.githubusercontent.com/Ruggyy/group1_EcoTrace/refs/heads/main/public/logo.png?token=GHSAT0AAAAAACWON7ALA7TUXHBKGC5GHHR6ZYNUZZA',
+    title: 'EcoTrace',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Typescript'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
+      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
       {
-        label: 'Java',
+        label: 'Next.js',
         icon: 'logos:java',
       },
-      getSkillByLabel(BACKEND_SKILLS, 'MySQL'),
+  
     ],
     description:
-      'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
-    repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
+      'The Carbon Footprint Tracker is a web app that helps users assess the environmental impact of their food by simply taking a picture of their meal. Using advanced image recognition technology, it provides an estimate of the carbon footprint and suggests more sustainable alternatives.',
+    repoLink: 'https://github.com/Ruggyy/group1_EcoTrace',
     sourceLink: '',
     category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
   },
 
   {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
-    title: 'Netflix Clone - TMDB API Project',
+    imgSrc: 'https://az632705.vo.msecnd.net/cmsroot/jupitermusic/media/jupiter-media/products/woodwinds/jaf1100e/angle1/jaf1100e_1.jpg',
+    title: 'Concert Band "Flute"',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
+
     ],
-    description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
-    repoLink: 'https://github.com/dhavalcode/netflix-clone',
-    sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+    description: 'As a flutist in the concert band, you bring a unique blend of agility and warmth to the ensembles sound. Your skillful fingerwork and breath control allow you to navigate intricate melodies with ease, captivating both the audience and your fellow musicians. With a passion for collaboration, you contribute to the rich tapestry of harmonies and rhythms, making each performance a memorable experience',
+   
+    category: [PROJECT_CATEGORY.EXTRA],
   },
 ];
